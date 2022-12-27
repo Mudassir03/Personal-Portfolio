@@ -207,3 +207,64 @@
 .react-pdf__Page__annotations, .annotationLayer{
   display: none;
 }
+
+
+/*   ------------project------------*/
+
+.project{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 60px ;
+  margin-bottom: 210px;
+}
+.card{
+
+  margin-left:30px ;
+  border: 1px solid gray;
+  align-self: center;
+  max-width: 600px;
+  padding: 5px;
+  height: 340px;
+  
+}
+.card>p{
+  color: rgb(254, 103, 103);
+}
+.proj-img{
+  height: 170px;
+  width: 300px;
+  border-bottom: 1px solid gray;
+}
+.proj-btn-img{
+  margin: auto;
+  
+  width: 20px;
+  
+}
+.proj-btn{
+ 
+  display: inline-flex;
+  
+  
+  
+  
+  
+  width: 40%;
+  margin: 5%;
+  
+
+}
+.mobile{
+  display: none;
+}
+
+@media (max-width: 480px) {
+  .App{
+    display: none;
+    
+  }
+  .mobile{
+    display: contents;
+  }
+}

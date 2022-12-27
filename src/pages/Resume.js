@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import resume from '../assets/mudassir.pdf'
 import { Document, Page } from 'react-pdf/dist/esm/entry.webpack'
 
