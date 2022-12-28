@@ -21,7 +21,7 @@ MGM college of engineering, Nanded.
 <img className='abimg' src={abimg} alt='' />
 <div className='skill-set'>
   <h2 >Skill Set</h2>
-  {skillset.map((set)=>(<img className='set-img' alt='' src={set.img}/>))}
+  {skillset.map((set)=>(<img className='set-img' key={set.id} alt='' src={set.img}/>))}
 </div>
 
 
