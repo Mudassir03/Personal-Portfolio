@@ -169,11 +169,11 @@
  
 }
 /*   ----------resume---------  */
-.resume{
- 
-}
+
 .resume-page{
      margin: 20px 0px ;
+     width: 500px;
+     display: block;
 }
 .resume-link{
   text-decoration: none;
@@ -193,20 +193,6 @@
 }
 .resume-link>button:hover{
   box-shadow: inset 1px 1px 10px rgba(128, 128, 128, 0.498);
-}
-.react-pdf__Page__textContent  {
-  margin:0px 0px 0px 115px;
-  
- 
-
-  
-}
-.textLayer{
-  margin:0px 0px 0px 115px;
-}
-.react-pdf__Page__annotations, .annotationLayer{
-  margin:0px 0px 0px 115px;
-  
 }
 
 

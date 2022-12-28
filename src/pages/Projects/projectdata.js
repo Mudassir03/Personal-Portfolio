@@ -15,8 +15,8 @@ const Skeliton=[
         name:"Spotify clon",
         img:'https://1000logos.net/wp-content/uploads/2021/04/Spotify-logo-768x432.png',
         note: "NOTE: Currently working on it",
-        visit:'/sorry',
-        github:'/sorry'
+        visit:'',
+        github:''
         
         
     }
